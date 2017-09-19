@@ -2,5 +2,6 @@
 Sliders examples
 
 ## Resources
+* OwlCarousel
 * Animate CSS
 * Font Awesome

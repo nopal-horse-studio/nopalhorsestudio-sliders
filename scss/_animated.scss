@@ -2,7 +2,6 @@
 	* animate.css -http://daneden.me/animate
 	* Version - 3.5.2
 	* Licensed under the MIT license - http://opensource.org/licenses/MIT
-	*
 	* Copyright (c) 2017 Daniel Eden
 */
 .animated {
@@ -89,7 +88,7 @@
 	animation-timing-function: ease-in;
 }
 
-/* =Slide
+/* =SlideOutRight
 -----------------------------------------------------------------------------*/
 @keyframes slideOutRight {
 	from {
@@ -106,6 +105,8 @@
 	animation-name: slideOutRight;
 }
 
+/* =SlideInLeft
+-----------------------------------------------------------------------------*/
 @keyframes slideInLeft {
 	from {
 		transform: translate3d(-100%, 0, 0);
@@ -121,17 +122,19 @@
 	animation-name: slideInLeft;
 }
 
+/* =SlideOutLeft
+-----------------------------------------------------------------------------*/
 @keyframes slideOutLeft {
-from {
-transform: translate3d(0, 0, 0);
-}
+	from {
+		transform: translate3d(0, 0, 0);
+	}
 
-to {
-visibility: hidden;
-transform: translate3d(-100%, 0, 0);
-}
+	to {
+		visibility: hidden;
+		transform: translate3d(-100%, 0, 0);
+	}
 }
 
 .slideOutLeft {
-animation-name: slideOutLeft;
+	animation-name: slideOutLeft;
 }
